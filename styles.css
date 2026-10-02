@@ -1844,7 +1844,7 @@ h3 {
   .service-card { min-height: 370px; padding: 30px; }
   .card-number { margin-bottom: 38px; }
   .service-card h3 { font-size: 30px; }
-  .service-card-wide .service-art, .service-art { right: -22px; bottom: -14px; width: 220px; height: 220px; }
+  .service-card-wide .service-art, .service-art { right: 10px; bottom: 8px; width: 205px; height: 205px; }
   .ritual-grid { gap: 28px; }
   .ritual-copy h2 { font-size: 50px; }
   .ritual-copy > p:not(.eyebrow) { font-size: 15px; }
@@ -1892,6 +1892,7 @@ h3 {
   .voice-orb { grid-template-columns: 1fr; }
   .hero-copy h1 { font-size: 46px; }
   .welcome-heading h2, .section-heading h2, .ritual-copy h2, .strike-copy h2 { font-size: 43px; }
+  .service-card-wide .service-art, .service-art { right: 10px; bottom: 10px; width: 188px; height: 188px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
