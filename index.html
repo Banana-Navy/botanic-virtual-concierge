@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#253018" />
+    <meta
+      name="description"
+      content="Meet the Botanic Virtual Concierge: a refined English and Dutch voice experience designed for Botanic Sanctuary Antwerp."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Botanic Virtual Concierge" />
+    <meta
+      property="og:description"
+      content="Every stay begins with a conversation. Discover a voice concierge designed to guide guests through stays, dining, wellness and more."
+    />
+    <meta property="og:url" content="https://banana-navy.github.io/botanic-virtual-concierge/" />
+    <meta property="og:image" content="https://banana-navy.github.io/botanic-virtual-concierge/assets/botanic-garden.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Botanic Virtual Concierge | Botanic Sanctuary Antwerp</title>
+    <link rel="canonical" href="https://banana-navy.github.io/botanic-virtual-concierge/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/botanic-garden-mobile.webp" as="image" media="(max-width: 720px)" fetchpriority="high" />
+    <link rel="preload" href="assets/botanic-garden.webp" as="image" media="(min-width: 721px)" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="botanic-brand" href="#top">
+        <svg class="botanic-mark" viewBox="0 0 48 58" aria-hidden="true" focusable="false">
+          <path d="M5 54V25C5 13.4 13.5 5 24 3c10.5 2 19 10.4 19 22v29" />
+          <path d="M11 54V26c0-8.4 5.5-14.8 13-17 7.5 2.2 13 8.6 13 17v28" />
+          <path d="M18 54V27c0-5.1 2.3-9.2 6-12 3.7 2.8 6 6.9 6 12v27M24 4v50" />
+        </svg>
+        <span class="botanic-wordmark">Botanic Sanctuary Antwerp</span>
+        <span class="sr-only">Home</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+        <a href="#experience">Experience</a>
+        <a href="#technology">Technology</a>
+        <a href="#trust">Trust</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <a
+        class="header-cta"
+        href="https://www.botanicantwerp.be/rooms-suites/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Book your stay
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-visual">
+          <picture>
+            <source media="(max-width: 720px)" srcset="assets/botanic-garden-mobile.webp" />
+            <img
+              class="hero-image"
+              src="assets/botanic-garden.webp"
+              alt="A sunlit historic courtyard and garden at Botanic Sanctuary Antwerp"
+              width="1672"
+              height="941"
+            />
+          </picture>
+          <div class="hero-shade"></div>
+          <div class="hero-copy">
+            <p class="eyebrow eyebrow-light">Your personal guide</p>
+            <h1 id="hero-title">Every stay begins<br />with a conversation.</h1>
+            <p>
+              Discover the sanctuary, plan meaningful moments and let the Botanic Virtual Concierge
+              guide you through the details.
+            </p>
+            <div class="hero-proof" role="group" aria-label="Concierge languages and status">
+              <span>English</span>
+              <span aria-hidden="true">·</span>
+              <span lang="nl">Nederlands</span>
+              <span aria-hidden="true">·</span>
+              <span>Private preview</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="concierge-panel" id="concierge" aria-labelledby="concierge-title">
+          <div class="panel-heading">
+            <p class="eyebrow">A gracious welcome, designed around each guest</p>
+            <h2 id="concierge-title">Virtual Concierge</h2>
+            <span class="heading-rule" aria-hidden="true"></span>
+            <p>How may we make your stay exceptional?</p>
+          </div>
+
+          <button class="voice-orb" type="button" data-open-concierge aria-label="Open the concierge preview">
+            <span class="voice-wave voice-wave-left" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <span class="orb-rings" aria-hidden="true">
+              <span></span><span></span><span></span>
+              <b>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a3.4 3.4 0 0 0-3.4 3.4v6.2a3.4 3.4 0 1 0 6.8 0V5.4A3.4 3.4 0 0 0 12 2Z" />
+                  <path d="M5.8 10.8v.8a6.2 6.2 0 0 0 12.4 0v-.8M12 17.8V22M8.7 22h6.6" />
+                </svg>
+              </b>
+            </span>
+            <span class="voice-wave voice-wave-right" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          </button>
+
+          <button class="conversation-cta" type="button" data-open-concierge>
+            <span>Explore the private preview</span>
+            <span aria-hidden="true">→</span>
+          </button>
+
+          <div class="quick-request-heading"><span></span><p>Or choose where to begin</p><span></span></div>
+          <div class="quick-requests">
+            <a href="#dining">
+              <span class="request-icon sprite sprite-concierge sprite-c2-r1" aria-hidden="true"></span>
+              <span>Explore dining</span><b aria-hidden="true">›</b>
+            </a>
+            <a href="#spa">
+              <span class="request-icon sprite sprite-concierge sprite-c3-r1" aria-hidden="true"></span>
+              <span>Discover the spa</span><b aria-hidden="true">›</b>
+            </a>
+            <a href="#stay">
+              <span class="request-icon sprite sprite-stay sprite-c3-r1" aria-hidden="true"></span>
+              <span>Plan my stay</span><b aria-hidden="true">›</b>
+            </a>
+          </div>
+
+          <p class="panel-languages">Designed for English <span>·</span> <span lang="nl">Nederlands</span></p>
+        </aside>
+      </section>
+
+      <section class="welcome-band" aria-label="Introduction">
+        <div class="shell welcome-grid">
+          <div class="welcome-heading reveal">
+            <p class="eyebrow eyebrow-light">Hospitality, in your own words</p>
+            <h2>A discreet digital host for every moment of the stay.</h2>
+          </div>
+          <div class="welcome-copy reveal">
+            <p>
+              The Botanic Virtual Concierge is designed to listen naturally, understand intent and
+              guide each guest with the measured warmth of five-star hospitality.
+            </p>
+            <p>
+              The experience is designed to bring hotel information, dining, wellness, arrival planning
+              and service requests into one elegant conversation—while leaving sensitive decisions to the right human team.
+            </p>
+          </div>
+        </div>
+        <div class="shell welcome-facts" role="list" aria-label="Experience principles">
+          <div role="listitem"><strong>EN + NL</strong><span>One language at a time</span></div>
+          <div role="listitem"><strong>24/7 target</strong><span>Continuous welcome after launch</span></div>
+          <div role="listitem"><strong>Live checks</strong><span>Planned through approved integrations</span></div>
+          <div role="listitem"><strong>Human care</strong><span>Through approved handover routes</span></div>
+        </div>
+      </section>
+
+      <section class="section section-services" id="experience" aria-labelledby="experience-title">
+        <div class="shell">
+          <div class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">One conversation. The whole sanctuary.</p>
+              <h2 id="experience-title">Ask naturally.<br />Arrive effortlessly.</h2>
+            </div>
+            <p>
+              From the first question to the smallest practical detail, the concierge is designed to
+              find the right information, check what can change and guide the next step with care.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card service-card-wide reveal" id="stay" data-bento>
+              <div class="card-copy">
+                <p class="card-number">01</p>
+                <h3>Rooms &amp; stays</h3>
+                <p>Explore room categories, arrival details, family needs and the services that shape a seamless stay.</p>
+                <span class="card-note">Availability, rates and reservation terms require a live check.</span>
+              </div>
+              <span class="service-art sprite sprite-stay sprite-c3-r1" aria-hidden="true"></span>
+            </article>
+
+            <article class="service-card reveal" id="dining" data-bento>
+              <div class="card-copy">
+                <p class="card-number">02</p>
+                <h3>Gastronomy</h3>
+                <p>Find the setting that fits your moment, from breakfast and afternoon tea to exceptional dining.</p>
+              </div>
+              <span class="service-art sprite sprite-wellness sprite-c1-r1" aria-hidden="true"></span>
+            </article>
+
+            <article class="service-card service-card-dark reveal" id="spa" data-bento>
+              <div class="card-copy">
+                <p class="card-number">03</p>
+                <h3>Spa &amp; wellbeing</h3>
+                <p>Discover treatments, facilities and restorative experiences. Current access would be verified through an approved source before any promise is made.</p>
+              </div>
+              <span class="service-art sprite sprite-wellness sprite-c2-r2" aria-hidden="true"></span>
+            </article>
+
+            <article class="service-card reveal" data-bento>
+              <div class="card-copy">
+                <p class="card-number">04</p>
+                <h3>Arrival &amp; transfers</h3>
+                <p>Get clear guidance for the correct entrance, parking, stations, airports and private transfer requests.</p>
+              </div>
+              <span class="service-art sprite sprite-connect sprite-c2-r2" aria-hidden="true"></span>
+            </article>
+
+            <article class="service-card reveal" data-bento>
+              <div class="card-copy">
+                <p class="card-number">05</p>
+                <h3>Events &amp; private moments</h3>
+                <p>Begin an enquiry for celebrations, meetings, private dining and remarkable occasions at the sanctuary.</p>
+              </div>
+              <span class="service-art sprite sprite-stay sprite-c1-r1" aria-hidden="true"></span>
+            </article>
+
+            <article class="service-card service-card-wide service-card-gold reveal" data-bento>
+              <div class="card-copy">
+                <p class="card-number">06</p>
+                <h3>Practical information</h3>
+                <p>Ask about directions, hotel services or who to contact. In production, uncertain details would be verified or routed through an approved handover path.</p>
+                <span class="card-note">No guessing. No invented confirmation.</span>
+              </div>
+              <span class="service-art sprite sprite-connect sprite-c3-r2" aria-hidden="true"></span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-ritual" aria-labelledby="ritual-title">
+        <div class="shell ritual-grid">
+          <div class="ritual-visual reveal" aria-hidden="true">
+            <span class="ritual-halo"></span>
+            <img src="assets/iconset-concierge.webp" alt="" width="1152" height="768" loading="lazy" />
+          </div>
+          <div class="ritual-copy reveal">
+            <p class="eyebrow eyebrow-light">Conversation as a service ritual</p>
+            <h2 id="ritual-title">Warm in tone.<br />Exact in action.</h2>
+            <p>
+              A refined voice is only the beginning. The concierge is designed to ask one clear
+              question at a time, confirm sensitive details aloud and never turn uncertainty into a promise.
+            </p>
+            <ol class="ritual-steps">
+              <li><span>01</span><div><h3>Welcome</h3><p>A natural bilingual opening lets the guest choose English or Dutch.</p></div></li>
+              <li><span>02</span><div><h3>Understand</h3><p>The conversation stays concise, contextual and focused on the guest’s intent.</p></div></li>
+              <li><span>03</span><div><h3>Verify</h3><p>The production design will check approved hotel knowledge and, where connected, live systems before variable facts are spoken.</p></div></li>
+              <li><span>04</span><div><h3>Care</h3><p>An approved human handover is planned for requests requiring judgement, approval or personal attention.</p></div></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-technology" id="technology" aria-labelledby="technology-title">
+        <div class="shell">
+          <div class="section-heading technology-heading reveal">
+            <p class="eyebrow">The technology behind the welcome</p>
+            <h2 id="technology-title">Conversational intelligence,<br />with reliable control systems.</h2>
+            <p>
+              The reference architecture combines a natural voice layer with authenticated orchestration,
+              controlled knowledge retrieval and explicit human ownership. Once configured and approved,
+              its components can connect to hotel systems without forcing a wholesale replacement of the operating model.
+            </p>
+          </div>
+
+          <p class="architecture-qualifier reveal">Reference architecture · subject to configuration and approval</p>
+          <div class="architecture-flow reveal" role="group" aria-label="Voice concierge architecture">
+            <div class="flow-node">
+              <span class="flow-icon sprite sprite-concierge sprite-c1-r1" aria-hidden="true"></span>
+              <small>Guest</small><strong>Natural request</strong>
+            </div>
+            <span class="flow-arrow" aria-hidden="true">→</span>
+            <div class="flow-node">
+              <span class="flow-icon sprite sprite-trust sprite-c3-r2" aria-hidden="true"></span>
+              <small>Voice</small><strong>ElevenLabs</strong>
+            </div>
+            <span class="flow-arrow" aria-hidden="true">→</span>
+            <div class="flow-node">
+              <span class="flow-icon sprite sprite-trust sprite-c1-r1" aria-hidden="true"></span>
+              <small>Orchestration</small><strong>n8n control layer</strong>
+            </div>
+            <span class="flow-arrow" aria-hidden="true">→</span>
+            <div class="flow-node">
+              <span class="flow-icon sprite sprite-trust sprite-c2-r2" aria-hidden="true"></span>
+              <small>Knowledge</small><strong>Private data layer</strong>
+            </div>
+            <span class="flow-arrow" aria-hidden="true">→</span>
+            <div class="flow-node">
+              <span class="flow-icon sprite sprite-trust sprite-c2-r1" aria-hidden="true"></span>
+              <small>Resolution</small><strong>Approved system or team</strong>
+            </div>
+          </div>
+
+          <div class="control-layers">
+            <article class="control-card reveal" data-bento>
+              <p class="card-number">Layer 01</p>
+              <span class="control-icon sprite sprite-trust sprite-c3-r2" aria-hidden="true"></span>
+              <h3>Voice &amp; access</h3>
+              <p>Approved telephony, authenticated access and provider-level safeguards configured for the final call route.</p>
+              <ul><li>Twilio or SIP</li><li>ElevenLabs voice agent</li><li>Protected webhooks</li></ul>
+            </article>
+            <article class="control-card reveal" data-bento>
+              <p class="card-number">Layer 02</p>
+              <span class="control-icon sprite sprite-connect sprite-c2-r1" aria-hidden="true"></span>
+              <h3>Controlled intelligence</h3>
+              <p>The design brings intent, context and review-gated knowledge together within a clearly limited service scope.</p>
+              <ul><li>EN/NL language control</li><li>Hybrid semantic retrieval</li><li>Source and validity checks</li></ul>
+            </article>
+            <article class="control-card reveal" data-bento>
+              <p class="card-number">Layer 03</p>
+              <span class="control-icon sprite sprite-trust sprite-c2-r2" aria-hidden="true"></span>
+              <h3>Decision &amp; routing</h3>
+              <p>Configured rules are intended to decide whether to answer, verify, prepare a request or involve a person.</p>
+              <ul><li>n8n workflow templates</li><li>Adapter contracts</li><li>Handover pending approval</li></ul>
+            </article>
+          </div>
+
+          <div class="technology-components">
+            <div class="components-heading reveal">
+              <p class="eyebrow">Technology that integrates with the operating model</p>
+              <h3>Eight capabilities designed to work as one dependable service.</h3>
+              <p>
+                Each capability would be configured around the hotel’s approved security, hosting,
+                performance and integration requirements. Production infrastructure, monitoring,
+                provider access and operating controls remain subject to configuration and approval.
+              </p>
+            </div>
+            <div class="component-grid">
+              <article class="component-card reveal" data-bento>
+                <span>01</span><h3>Telecom network &amp; security</h3>
+                <p>Secure trunks, SIP filtering, fraud controls and overload protection.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>02</span><h3>Real-time audio processing</h3>
+                <p>Signal clean-up, voice activity detection, interruption handling and anomaly analysis.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>03</span><h3>Controlled conversational AI</h3>
+                <p>Intent, context, retrieval, guided responses and deterministic scenarios.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>04</span><h3>Data &amp; knowledge</h3>
+                <p>Review-gated sources, structured records, histories and authorised business repositories.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>05</span><h3>Automation &amp; workflows</h3>
+                <p>Approved escalations, notifications and system updates, once their channels and permissions are configured.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>06</span><h3>Operator supervision</h3>
+                <p>Planned service monitoring, incident follow-up and human control.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>07</span><h3>Monitoring &amp; governance</h3>
+                <p>Redacted audit events, alerting and retention controls, subject to the hotel’s approved policy.</p>
+              </article>
+              <article class="component-card reveal" data-bento>
+                <span>08</span><h3>APIs &amp; integrations</h3>
+                <p>Controlled interfaces to approved internal and external systems.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="technology-stack reveal" role="group" aria-label="Technology components">
+            <p>Prepared to integrate with</p>
+            <div>
+              <span>ElevenLabs</span><span>n8n</span><span>Supabase · Postgres</span><span>Twilio · SIP</span>
+              <span>SynXis adapters</span><span>SevenRooms adapters</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-trust" id="trust" aria-labelledby="trust-title">
+        <div class="shell">
+          <div class="section-heading split-heading split-heading-light reveal">
+            <div>
+              <p class="eyebrow eyebrow-light">Trust by design</p>
+              <h2 id="trust-title">The confidence to say<br />“allow me to check.”</h2>
+            </div>
+            <p>
+              Luxury service depends on accuracy. The system is designed to remain helpful without
+              crossing the line between a sourced answer and a decision only the hotel can make.
+            </p>
+          </div>
+
+          <div class="trust-grid">
+            <article class="trust-card reveal" data-bento>
+              <span class="trust-icon sprite sprite-trust sprite-c1-r1" aria-hidden="true"></span>
+              <p class="card-number">01</p><h3>Sources before answers</h3>
+              <p>Only reviewed, dated and published hotel knowledge is eligible for retrieval. Stale or conflicting content is withheld. The current corpus remains pending hotel sign-off.</p>
+            </article>
+            <article class="trust-card reveal" data-bento>
+              <span class="trust-icon sprite sprite-trust sprite-c3-r1" aria-hidden="true"></span>
+              <p class="card-number">02</p><h3>Current facts stay current</h3>
+              <p>Rates, availability, opening times and booking conditions will be checked through approved live integrations once connected. Until then, the concierge can only prepare a request for the hotel team.</p>
+            </article>
+            <article class="trust-card reveal" data-bento>
+              <span class="trust-icon sprite sprite-trust sprite-c2-r2" aria-hidden="true"></span>
+              <p class="card-number">03</p><h3>Prepare, confirm, act</h3>
+              <p>In an approved live booking mode, a sensitive action would be summarised first, require an explicit yes and be confirmed only after the provider returns a reference. The current configuration remains request-only.</p>
+            </article>
+            <article class="trust-card reveal" data-bento>
+              <span class="trust-icon sprite sprite-trust sprite-c2-r1" aria-hidden="true"></span>
+              <p class="card-number">04</p><h3>Privacy and human control</h3>
+              <p>The design minimises personal-data collection and keeps access behind controlled boundaries. Final retention, residency and handover settings remain subject to hotel and DPO approval.</p>
+            </article>
+          </div>
+
+          <p class="validation-note reveal">
+            This private concept preview is not an operational hotel service. Any production launch remains subject to Botanic Sanctuary Antwerp’s approval of content,
+            voices, integrations, transfer routes, privacy settings and end-to-end call testing.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-strike" id="about" aria-labelledby="strike-title">
+        <div class="shell strike-grid">
+          <div class="strike-copy reveal">
+            <p class="eyebrow">Selected for a demanding innovation programme</p>
+            <h2 id="strike-title">Banana Navy selected for Belgian Defence’s <span class="no-break">STRIKE IT</span> 2026 programme.</h2>
+            <p class="strike-lead">
+              Separately from this Botanic concept, Banana Navy’s Voice Bot Navy project was selected
+              for the Belgian Defence STRIKE IT 2026 programme and is supported by the Cyber Defence
+              Factory / Cyber Command. The project is being developed from prototype toward operational capability.
+            </p>
+            <p>
+              The STRIKE IT platform is described as designed, hosted and operated in the European Union
+              to support European data-residency and governance requirements. A future Botanic deployment
+              would still require a separate, provider-by-provider review of hosting, data residency,
+              processor terms, GDPR duties and EU AI Act obligations.
+            </p>
+            <p class="strike-disclaimer">
+              The STRIKE IT selection concerns Banana Navy’s Voice Bot Navy project only. It does not
+              certify, sponsor or endorse Botanic Sanctuary Antwerp or this private concierge concept.
+            </p>
+          </div>
+          <div class="strike-partners reveal" role="group" aria-label="STRIKE IT programme context for Banana Navy">
+            <p>STRIKE IT programme context · Banana Navy project only</p>
+            <div class="strike-logo-grid">
+              <img src="assets/brand/badge-defence.png" alt="Belgian Defence" width="220" height="142" loading="lazy" />
+              <img src="assets/brand/badge-crest-royal.png" alt="Belgian institutional crest" width="112" height="200" loading="lazy" />
+              <img src="assets/brand/badge-strike-it.png" alt="STRIKE IT" width="823" height="531" loading="lazy" />
+              <img src="assets/brand/badge-cyberforce.png" alt="Cyber Force" width="157" height="200" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta" aria-labelledby="closing-title">
+        <div class="closing-image" aria-hidden="true"></div>
+        <div class="closing-shade"></div>
+        <div class="shell closing-content reveal">
+          <p class="eyebrow eyebrow-light">A new kind of welcome</p>
+          <h2 id="closing-title">Every detail begins<br />with listening.</h2>
+          <p>Discover how the Botanic Virtual Concierge is being prepared for a more effortless guest journey.</p>
+          <button class="button button-light" type="button" data-open-concierge>Experience the private preview <span>→</span></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand-block">
+          <img src="assets/brand/banana-navy-logo.png" alt="Banana Navy" width="400" height="238" loading="lazy" />
+          <div>
+            <h2>Trusted voice agents<br />&amp; agentic systems</h2>
+            <p>We design secure voice agents and reliable agentic systems, integrated with your operations and maintained over time.</p>
+          </div>
+        </div>
+
+        <div class="footer-commitments">
+          <p class="footer-label">Our commitments</p>
+          <ul>
+            <li><span class="mini-icon sprite sprite-trust sprite-c3-r1" aria-hidden="true"></span><b>24/7-ready design</b></li>
+            <li><span class="mini-icon sprite sprite-trust sprite-c2-r2" aria-hidden="true"></span><b>Anti-hallucination controls</b></li>
+            <li><span class="mini-icon sprite sprite-trust sprite-c2-r1" aria-hidden="true"></span><b>Security &amp; privacy by design</b></li>
+            <li><span class="mini-icon sprite sprite-trust sprite-c1-r1" aria-hidden="true"></span><b>Controlled data systems</b></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <p class="footer-label">Contact</p>
+          <address>
+            <strong>Banana Navy</strong>
+            <span>Marc-Antoine Cajot</span>
+            <a href="tel:+32495277044">+32 495 277 044</a>
+            <a href="mailto:marc@banana-navy.com">marc@banana-navy.com</a>
+            <a href="https://www.banana-navy.ai" target="_blank" rel="noreferrer">www.banana-navy.ai</a>
+            <span>Rue Antoine de Saint-Exupéry 2<br />6041 Charleroi, Belgium</span>
+          </address>
+        </div>
+      </div>
+
+      <div class="shell partner-band">
+        <div class="partner-context">
+          <p class="footer-label">STRIKE IT programme context</p>
+          <strong>Banana Navy project only</strong>
+        </div>
+        <p>
+          Banana Navy’s Voice Bot Navy project was selected for the Belgian Defence STRIKE IT 2026
+          programme and is supported by the Cyber Defence Factory / Cyber Command. This affiliation is
+          separate from the Botanic Virtual Concierge concept.
+        </p>
+      </div>
+
+      <div class="shell legal-line">
+        <span>© <span data-year>2026</span> Banana Navy</span>
+        <span>Botanic Virtual Concierge · Private concept preview</span>
+        <nav aria-label="Footer navigation">
+          <a href="#technology">Technology</a>
+          <a href="#trust">Privacy by design</a>
+          <a href="https://www.botanicantwerp.be/" target="_blank" rel="noreferrer">Official hotel website</a>
+        </nav>
+      </div>
+    </footer>
+
+    <dialog class="concierge-dialog" id="concierge-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-card">
+        <button class="dialog-close" type="button" data-close-concierge aria-label="Close preview">×</button>
+        <p class="eyebrow">Private concept preview</p>
+        <div class="dialog-orb" aria-hidden="true">
+          <span></span><span></span><b>
+            <svg viewBox="0 0 24 24"><path d="M12 2a3.4 3.4 0 0 0-3.4 3.4v6.2a3.4 3.4 0 1 0 6.8 0V5.4A3.4 3.4 0 0 0 12 2Z"/><path d="M5.8 10.8v.8a6.2 6.2 0 0 0 12.4 0v-.8M12 17.8V22M8.7 22h6.6"/></svg>
+          </b>
+        </div>
+        <h2 id="dialog-title">The concierge is preparing to welcome you.</h2>
+        <p>
+          The public voice connection will be enabled after Botanic Sanctuary Antwerp approves the
+          agent, its knowledge, integrations and privacy settings.
+        </p>
+        <blockquote>
+          “A very warm welcome to Botanic Sanctuary Antwerp. <span lang="nl">Goedendag en hartelijk welkom.</span>”
+        </blockquote>
+        <div class="dialog-actions">
+          <a class="button button-primary" href="tel:+3232690000">Call Botanic</a>
+          <button class="button button-secondary" type="button" data-close-concierge>Continue exploring</button>
+        </div>
+        <small>+32 3 269 00 00 is the hotel’s general number, not a voicebot demonstration line.</small>
+      </div>
+    </dialog>
+  </body>
+</html>

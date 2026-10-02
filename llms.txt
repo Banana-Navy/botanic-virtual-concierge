@@ -1,0 +1,9 @@
+# Botanic Virtual Concierge
+
+> Private concept preview for a proposed English and Dutch voice concierge experience for Botanic Sanctuary Antwerp.
+
+The page presents a guest-experience concept, reference technology architecture and trust controls prepared by Banana Navy. It is not an operational hotel service. Content, voices, integrations, privacy settings and production deployment remain subject to Botanic Sanctuary Antwerp approval.
+
+Canonical URL: https://banana-navy.github.io/botanic-virtual-concierge/
+Official hotel website: https://www.botanicantwerp.be/
+Technology partner: https://www.banana-navy.ai/
