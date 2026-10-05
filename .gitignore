@@ -1,1 +1,11 @@
+.env
+.env.*
+!.env.example
 .DS_Store
+node_modules/
+dist/
+artifacts/private/
+artifacts/audio/
+config/elevenlabs-runtime.local.json
+config/n8n-runtime.local.json
+*.log
