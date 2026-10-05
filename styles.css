@@ -1414,7 +1414,7 @@ h3 {
 /* Footer */
 
 .site-footer {
-  padding: 76px 0 22px;
+  padding: var(--section-space) 0 1.25rem;
   background: #e6ebdf;
   color: var(--forest-950);
 }
@@ -1423,7 +1423,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.92fr) minmax(260px, 0.65fr);
   gap: 56px;
-  padding-bottom: 52px;
+  padding-bottom: var(--section-space);
 }
 
 .footer-brand-block {
@@ -1518,7 +1518,7 @@ h3 {
   grid-template-columns: minmax(420px, 0.95fr) minmax(320px, 0.8fr);
   align-items: center;
   gap: 70px;
-  padding: 38px 0;
+  padding: var(--section-space) 0;
   border-top: 1px solid rgba(37, 48, 24, 0.14);
   border-bottom: 1px solid rgba(37, 48, 24, 0.14);
 }
@@ -1841,7 +1841,7 @@ h3 {
 
 @media (max-width: 760px) {
   :root { --shell: calc(100vw - 36px); --header-height: 68px; }
-  .section { padding: 88px 0; }
+  .section { padding: var(--section-space) 0; }
   .site-header { padding: 0 14px; }
   .botanic-brand { gap: 11px; }
   .botanic-mark { width: 29px; height: 39px; }
@@ -1861,8 +1861,8 @@ h3 {
   .orb-rings b { width: 80px; }
   .voice-wave { gap: 4px; }
   .quick-requests a { font-size: 15px; }
-  .welcome-band { padding-top: 76px; }
-  .welcome-grid { grid-template-columns: 1fr; gap: 34px; padding-bottom: 60px; }
+  .welcome-band { padding-top: var(--section-space); }
+  .welcome-grid { grid-template-columns: 1fr; gap: 2rem; padding-bottom: var(--section-space); }
   .welcome-heading h2 { font-size: 49px; }
   .welcome-copy { font-size: 17px; }
   .welcome-facts { grid-template-columns: repeat(2, 1fr); }
@@ -1870,7 +1870,7 @@ h3 {
   .welcome-facts div:first-child { padding-left: 14px; }
   .welcome-facts div:nth-child(2) { border-right: 0; }
   .section-heading h2 { font-size: 49px; }
-  .split-heading { gap: 26px; margin-bottom: 48px; }
+  .split-heading { gap: 26px; margin-bottom: var(--section-space); }
   .split-heading > p { font-size: 15px; }
   .service-grid { grid-template-columns: 1fr; }
   .service-card { min-height: 0; padding: 30px; grid-template-rows: auto minmax(135px, auto); gap: 24px; }
@@ -1903,7 +1903,7 @@ h3 {
   .closing-cta { min-height: 590px; }
   .closing-content h2 { font-size: 58px; }
   .closing-content > p:not(.eyebrow) { font-size: 17px; }
-  .site-footer { padding-top: 54px; }
+  .site-footer { padding-top: var(--section-space); }
   .footer-grid, .partner-band, .legal-line { grid-template-columns: 1fr; gap: 34px; }
   .footer-brand-block { grid-template-columns: 84px 1fr; }
   .footer-brand-block > img { width: 80px; }
@@ -1911,7 +1911,7 @@ h3 {
   .footer-commitments ul { grid-template-columns: 1fr; }
   .footer-contact { grid-column: auto; }
   .footer-contact address { display: flex; }
-  .partner-band { padding: 30px 0; }
+  .partner-band { padding: var(--section-space) 0; }
   .partner-context strong { font-size: 21px; }
   .legal-line > span:nth-child(2) { text-align: left; }
   .legal-line nav { flex-wrap: wrap; }
@@ -2026,7 +2026,7 @@ h3 {
     padding-top: 8px;
   }
 
-  .section {
+  .section-services {
     display: grid;
     align-items: center;
     min-height: calc(100svh - var(--header-height));
@@ -2044,7 +2044,7 @@ h3 {
   .service-card,
   .service-card-wide {
     display: block;
-    min-height: clamp(210px, 25svh, 250px);
+    min-height: clamp(190px, 22svh, 220px);
     padding: 22px;
   }
 
